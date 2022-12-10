@@ -1,0 +1,66 @@
+{
+  "bot_setup": {
+      "prefix": "!",
+      "token": "NjI5MDE2NzI5NTYwOTQwNTc0.XkQyRA.dfkkHVpDl9Z7SFp55SBTwp23rIk",
+      "copyright": "© 2019 Mat_",
+      "bot_status": "online",
+      "bot_game_type": "WATCHING",
+      "bot_game": "0/20 players",
+      "main_embed_color": "#0096D6",
+      "debug_mode": false
+  },
+
+  "module_toggles": {
+      "welcome_leave_channel": true,
+      "join_role": true,
+      "logs": true,
+      "moderation_commands": true,
+      "mod_logs": true,
+      "fun_commands": false,
+      "utility_commands": false,
+      "ticket_system": true,
+      "filter_lang_links": true,
+      "member_count_channel": false
+  },
+
+  "channel_setup": {
+      "welcome_channel": "655018869064466436",
+      "general_logs_channel": "655720405352579073",
+      "kick_logs_channel": "655720405352579073",
+      "ban_logs_channel": "655720405352579073",
+      "warning_logs_channel": "655720405352579073",
+      "mute_logs_channel": "655720405352579073",
+      "command_logs_channel": "655720405352579073",
+      "ticket_category": "655404647284211712"
+  },
+
+  "join_roles": {
+      "role": "655051502964178954"
+  },
+
+  "ticket_system": {
+      "support_role": "664566807839113237",
+      "auto_reply": true,
+      "auto_reply_message": "Hey, \nMerci d'avoir fait un ticket! Nous pourrons vous répondre dès qu'un membre du support sera disponible."
+  },
+
+  "moderation_module": {
+      "mute_role": "Muted",
+      "DM_kicked_user": true,
+      "DM_banned_user": true,
+      "DM_muted_user": true,
+      "DM_warned_user": true
+  },
+
+  "filter_module": {
+      "language_bypass_role": "657720410191822909",
+      "link_bypass_role": "657720410191822909",
+      "filter_links": [],
+      "filter_words": ["tg", "ntm", "fdp", "fils de pute", "pute"]
+  },
+
+  "member_count_module": {
+      "member_count_channel": ""
+  }
+}
+
